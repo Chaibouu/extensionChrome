@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "Chaib-Techn",
+  "description": "raccourci reseau",
+  "version": "1.0",
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {              
+      "16": "2.png",   
+      "24": "2.png",   
+      "32": "2.png"    
+    }
+   },
+   "background": {
+    "service_worker": "index.js",
+    "type": "module"
+  },
+   "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "windows": "Ctrl+Shift+P",
+        "mac": "Command+Shift+P"
+      }
+    }
+  },
+   "icons": {
+    "16": "2.png",
+    "32": "2.png",
+    "48": "2.png",
+    "128": "2.png"
+  }
+}
